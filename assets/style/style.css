@@ -51,6 +51,10 @@ a:hover{
     filter: brightness(40%);
 }
 
+#tituloCarr{
+    color: white !important;
+}
+
 .pCarrousel{
     padding: 0 13rem;
 }
@@ -226,4 +230,126 @@ footer a{
     color: white !important;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .header1{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .headerA{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carousel-item img {
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .pCarrousel{
+        font-size: 0.8rem;
+        padding: 0;
+    }
+
+    .button1{
+        font-size: 0.8rem;
+    }
+
+    .button2{
+        font-size: 0.8rem;
+    }
+
+    .cardsOradores{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h5{
+        font-size: 0.8rem !important;
+    }
+
+    #charla{
+        font-size: 0.8rem !important;
+    }
+
+    .dosCajitas{
+        flex-direction: column;
+    }
+
+    .textArea{
+        width: 30rem;
+    }
+
+    .btn{
+        width: 30rem !important;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .header1{
+        flex-direction: column;
+    }
+
+    .primerDiv{
+        margin-right: 4.5rem;
+    }
+
+    .headerA{
+        flex-direction: column !important;
+        margin-left: 0.5rem;
+    }
+
+    .cardsOradores{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-text2{
+        font-size: 0.8rem !important;
+    }
+
+    #botonCard2{
+        font-size: 0.8rem;
+    }
+
+    h5{
+        font-size: 0.8rem !important;
+        padding: 0.5rem;
+    }
+
+    #charla{
+        font-size: 0.8rem !important;
+    }
+
+    .dosCajitas{
+        flex-direction: column;
+    }
+
+    .caja1{
+        width: 15rem;
+    }
+
+    .textArea{
+        width: 15rem;
+    }
+
+    .btn{
+        width: 15rem !important;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
 }
