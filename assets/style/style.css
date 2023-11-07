@@ -232,6 +232,14 @@ footer a{
     font-size: 1rem;
 }
 
+.desc{
+    color: black;
+}
+
+.fondo{
+    background-color: rgba(132, 184, 204, 0.637);
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
     .header1{
@@ -374,5 +382,9 @@ footer a{
         padding: 1rem;
         flex-wrap: wrap;
         align-items: center;
+    }
+
+    .custom-col{
+        flex-basis: 100% !important;
     }
 }
